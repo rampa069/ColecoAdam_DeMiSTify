@@ -1,4 +1,4 @@
-#  Coleco Adam for MiSTer
+#  Coleco Adam for DeMiSTified FPGA
 
 This core is a conversion of the Colecovision core into verilog. Adam support was added by alanswx and spacexguy (asicguy).  
 
@@ -21,7 +21,7 @@ This core is a conversion of the Colecovision core into verilog. Adam support wa
 AdamNet adapted from ColEm https://fms.komkon.org/ColEm/
 Original colecovision core https://github.com/wsoltys/mist-cores/tree/master/fpga_colecovision
 Original MiSTer core https://github.com/MiSTer-Devel/ColecoVision_MiSTer/
-
+MiSTer core https://github.com/MiSTer-devel/ColecoAdam_MiSTer
 
 ### Information
 
