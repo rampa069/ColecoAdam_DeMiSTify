@@ -110,8 +110,8 @@ architecture RTL of uareloaded_top is
 	signal joyd : std_logic_vector(7 downto 0);
 	
 -- DAC AUDIO
-   signal dac_l: std_logic_vector(15 downto 0);
-   signal dac_r: std_logic_vector(15 downto 0);
+   signal dac_l: signed(15 downto 0);
+   signal dac_r: signed(15 downto 0);
 	
 -- DAC VGA
 signal vga_clk_o :  std_logic;
@@ -153,8 +153,8 @@ COMPONENT  guest_mist
 		AUDIO_R  : out std_logic;
 		LED      : out std_logic;
 		--
-		DAC_L    : out std_logic_vector(15 downto 0);
-	   DAC_R    : out std_logic_vector(15 downto 0)
+		DAC_L    : out signed(15 downto 0);
+	   DAC_R    : out signed(15 downto 0)
 
 	);
 END COMPONENT;
